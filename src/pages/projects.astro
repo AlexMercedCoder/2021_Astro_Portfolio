@@ -1,0 +1,176 @@
+---
+import apps from "../json/apps.json"
+import Test from "../components/Test.vue"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample of Alex Merced's Coding Projects</title>
+</head>
+<body>
+<h1>Sample of Alex Merced's Coding Projects</h1>
+<div class="projects">
+{apps.apps.map((p) => {
+    return <div class="project">
+    <img src={p.img}/>
+    <main>
+    <h3>{p.name}</h3>
+    <p>{p.description}</p>
+    <a href={p.live}><button>Live App</button></a>
+    <a href={p.git}><button>Git Repo</button></a>
+    </main>
+    </div>
+})}
+</div>
+
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Plaster&family=Press+Start+2P&family=Righteous&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: gold;
+    margin: 0;
+    font-size: 4em;
+
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.project img {
+    display: block;
+    width: 250px;
+    object-fit: cover;
+    border-right: 3px solid black;
+    aspect-ratio: 1/1;
+}
+
+.project main {
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+.project main h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+    background-color: black;
+    color: white
+}
+
+.project main p {
+    margin: 2%;
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.project button {
+    border: 4px solid black;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 1.5em;
+    background-color: gold;
+    color: black;
+    margin: 6px 5%;
+    transition: color .3s, background-color .3s, border .3s;
+}
+
+.project button:hover{
+    color: gold;
+    background-color: black;
+    border: 6px solid gold;
+}
+
+@media screen and (max-width: 800px){
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    .project img {
+    width: 150px;
+    }
+
+    .project main p {
+    font-size: 1em;
+    }
+
+    .project main h3 {
+    padding: 5px;
+    font-size: 2em;
+    background-color: black;
+    color: white
+    }
+
+    .project button {
+    padding: 5px;
+    border-radius: 40px;
+    font-size: 1em;
+    margin: 6px 2%;
+    }
+}
+
+@media screen and (max-width: 515px){
+    h1 {
+        font-size: 1em;
+    }
+    
+    .project img {
+    width: 100px;
+    }
+
+    .project main p {
+    font-size: .8em;
+    }
+
+    .project main h3 {
+    padding: 2px;
+    font-size: 1em;
+    background-color: black;
+    color: white
+    }
+
+    .project button {
+    padding: 5px;
+    border-radius: 40px;
+    font-size: .8em;
+    margin: 6px 1%;
+    }
+}
+
+</style>
+    
+</body>
+</html>

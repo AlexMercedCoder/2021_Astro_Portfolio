@@ -1,0 +1,357 @@
+---
+// 1. Create a new file at <project-directory>/src/pages/index.astro
+// 2. Copy-and-paste this entire file (including `-` dashes) into it.
+---
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Merced - Developer</title>
+</head>
+  <body>
+    <img id="myself" src="/myself.jpg" alt="Alex Merced Photo"/>
+    <div id="body">
+
+        <aside id="left">
+        <div id="logo">
+        <span class="logo">AM</span>    <span class="name gone">Alex Merced</span></div>
+
+        <div class="social">
+        <p>
+        <span class="title">Twitter:</span><br> @alexmercedcoder</p>
+        <p>
+        <span class="title">LinkedIN:</span><br> @alexmerced</p>
+        <p><span class="title">Email:</span><br> alex@alexmerced.dev</p>
+        </div>
+        </aside>
+        <main id="right">
+        <nav>
+        <a href="https://github.com/AlexMercedCoder">
+            <div class="link">Github</div>
+        </a>
+        <a href="/resume">
+            <div class="link">Resume</div>
+        </a>
+        <a href="/projects" class="gone">
+            <div class="link gone">Projects</div>
+        </a>
+        <a href="/libraries" class="gone">
+            <div class="link gone">Libraries</div>
+        </a>
+        <a href="https://tuts.alexmercedcoder.com/" class="gone">
+            <div class="link gone">Blog</div>
+        </a>
+        </nav>
+        <article>
+        <span class="a">Dev<span class="gone">eloper </span></span><br>
+        <span class="b gone">Educator</span><br>
+        <span class="c gone">Problem Solver</span><br>
+        </article>
+        </main>
+    
+    </div>
+
+
+
+    <!-- CSS STYLES -->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plaster&family=Press+Start+2P&family=Righteous&family=Roboto:wght@100&display=swap');
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    div#body {
+        display: grid;
+        grid-template-areas: "left right right";
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    div#body aside#left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: gold;
+        grid-area: left;
+        padding: 6px;
+    }
+    
+    div#body main#right {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        grid-area: right
+    }
+
+    img#myself {
+        position: absolute;
+        height: 60vh;
+        top: 20vh;
+        left: 30vw;
+        border: 10px solid gold;
+        border-radius: 90px;
+        transition: height .3s, border .3s;
+    }
+
+    img#myself:hover {
+        height: 70vh;
+        border: 20px solid gold;
+        transition: height .3s, border .3s;
+    }
+
+    div#logo {
+        font-size: 3.5em;
+    }
+
+    div#logo span.logo {
+        font-family: 'Plaster', cursive;
+        margin: 0 .7em;
+    }
+
+    div.social {
+        margin-left: 5%;
+        line-height: 20px;
+        transition: font-size .3s, line-height .3s;
+    }
+
+    div.social:hover {
+        margin-left: 5%;
+        line-height: 30px;
+        font-size: 2em;
+    }
+
+    div.social p {
+        margin: 10px 5px;
+    }
+
+    div.social span.title{
+        font-weight: 800;
+    }
+
+    main#right nav{
+        display: flex;
+        justify-content: space-around;
+        font-size: 3em;
+        margin: 6px;
+        font-weight: 800;
+    }
+
+    main#right nav a {
+        color: black;
+        text-decoration: none;
+    }
+
+    main#right nav a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+
+    main#right article {
+        width: 40%;
+        margin: auto;
+    }
+
+    main#right article span.a {
+        font-size: 6em;
+        font-weight: 800;
+    }
+    main#right article span.b {
+        font-size: 5em;
+    }
+    main#right article span.c {
+        font-size: 4em;
+        font-style: italic;
+    }
+
+    /* NON FULL SCREEN */
+
+    @media screen and (max-width: 1740px) and (min-width: 1500px){
+        div#logo {
+        font-size: 3.4em;
+    }
+
+    img#myself {
+        position: absolute;
+        height: 60vh;
+        top: 20vh;
+        left: 25vw;
+        border: 10px solid gold;
+        border-radius: 90px;
+        transition: height .3s, border .3s;
+    }
+    }
+
+    /* NON FULL SCREEN */
+
+    @media screen and (max-width: 1500px) and (min-width: 1200px){
+        div#logo {
+        font-size: 2.3em;
+    }
+
+    img#myself {
+        position: absolute;
+        height: 50vh;
+        top: 20vh;
+        left: 15vw;
+        border: 10px solid gold;
+        border-radius: 90px;
+        transition: height .3s, border .3s;
+    }
+    }
+
+    /* NON FULL SCREEN */
+
+    @media screen and (max-width: 1200px) and (min-width: 1000px){
+        div#logo {
+        font-size: 2.3em;
+    }
+
+
+    nav a.gone, #logo .gone {
+        display: none;
+    }
+
+    div#logo {
+        text-align: center;
+    }
+
+    img#myself {
+        position: absolute;
+        height: 45vh;
+        top: 15vh;
+        left: 8vw;
+        border: 10px solid gold;
+        border-radius: 90px;
+        transition: height .3s, border .3s;
+    }
+    }
+
+        /* TABLET SIZES */
+
+        
+
+        @media screen and (max-width: 1000px) and (min-width: 600px){
+
+        /* div#body {
+            height: 87vh;
+        } */
+
+        img#myself {
+            left: 10%;
+            height: 40vh;
+        }
+
+        div#logo span.logo {
+        font-family: 'Plaster', cursive;
+        text-align: center;
+        margin: 12px;
+    }
+
+        div#logo span.name {
+            display: none;
+        }
+
+    div.social p {
+        margin-right: 8px;
+    }
+
+    main#right nav{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        margin: 5px 5px;
+    }
+
+    main#right nav a{
+        background-color: black;
+        color: gold;
+        padding: 10px;
+        border-radius: 60px;
+        margin: 3px;
+    }
+
+    main#right article {
+        position: absolute;
+        top: 60%;
+        left: 60%;
+    }
+
+    main#right article span.a {
+        font-size: 4em;
+        font-weight: 800;
+    }
+    main#right article span.b {
+        font-size: 3em;
+    }
+    main#right article span.c {
+        font-size: 2em;
+        font-style: italic;
+    }
+        
+    }
+
+    /* MOBILE SIZES */
+
+    @media screen and (max-width: 600px){
+        img#myself {
+            max-width: 60vw;
+            height: unset;
+        }
+
+        div#logo span.logo {
+        font-family: 'Plaster', cursive;
+        text-align: center;
+        margin: 12px;
+    }
+
+        div#logo span.name {
+            display: none;
+        }
+
+    div.social p {
+        margin-right: 8px;
+    }
+
+    .gone {
+        display: none;
+    }
+
+    main#right article span.a {
+        font-size: 3em;
+        font-weight: 800;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+
+    main#right nav{
+        display: flex;
+        justify-content: center;
+        font-size: 1em;
+        margin: 5px 5px;
+    }
+
+    main#right nav a{
+        background-color: black;
+        color: gold;
+        padding: 6px;
+        border-radius: 60px;
+        margin: 3px;
+    }
+        
+    }
+
+
+    </style>
+  </body>
+</html>
