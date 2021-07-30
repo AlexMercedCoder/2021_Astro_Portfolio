@@ -225,6 +225,15 @@
           "vid": null,
           "blog": "https://tuts.alexmercedcoder.com/",
           "command": "npm install mercedlogger"
-       }
+       },
+       {
+         "name": "datawarp",
+         "description": "Framework Agnostic Hook Similar to Reacts useContext that can be used in any framework",
+         "github": "https://github.com/AlexMercedCoder/datawarp",
+         "npm": "https://www.npmjs.com/package/datawarp",
+         "vid": null,
+         "blog": "",
+         "command": "npm install datawarp"
+      }
     ]
  }
