@@ -234,6 +234,15 @@
          "vid": null,
          "blog": "",
          "command": "npm install datawarp"
+      },
+      {
+         "name": "evolveui",
+         "description": "Framework Agnostic Event Driven State Management Library",
+         "github": "https://github.com/AlexMercedCoder/EvolveUI",
+         "npm": "https://www.npmjs.com/package/evolveui",
+         "vid": null,
+         "blog": "",
+         "command": "npm install evolveui"
       }
     ]
  }
