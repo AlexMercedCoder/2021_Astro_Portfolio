@@ -9,13 +9,6 @@
           "description": "Community for developers to network and learn to code. Created with React/Typescript."
        },
        {
-          "name": "Savvy Hotspots",
-          "live": "https://savvyhotspots.netlify.com/",
-          "git": "https://github.com/AlexMercedCoder/SavvyBackendAPI",
-          "img": "https://i.imgur.com/sRcGAXe.png",
-          "description": "Site for searching and commenting on Savannah, GA Hotspots! Created with React/PHP/Postgres"
-       },
-       {
           "name": "BetterBoxD",
           "live": "https://betterboxd.herokuapp.com/",
           "git": "https://github.com/Jordan-Morales/betterboxd",
