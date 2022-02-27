@@ -252,6 +252,33 @@
       "vid": null,
       "blog": "",
       "command": "npm install alexmerced-patternmatcher"
+    },
+    {
+      "name": "mercedevents",
+      "description": "Specialized EventEmitter Class with Asynchromous Middleware",
+      "github": "https://github.com/AlexMercedCoder/MercedEvent",
+      "npm": "https://www.npmjs.com/package/mercedevents",
+      "vid": null,
+      "blog": "",
+      "command": "npm install mercedevents"
+    },
+    {
+      "name": "logicbind",
+      "description": "Bind logic when values change",
+      "github": "https://github.com/AlexMercedCoder/logicbind",
+      "npm": "https://www.npmjs.com/package/logicbind",
+      "vid": null,
+      "blog": "",
+      "command": "npm install logicbind"
+    },
+    {
+      "name": "make-graphql-query",
+      "description": "A Library for Pattern Matching in Javascript",
+      "github": "https://github.com/AlexMercedCoder/make-graphql-query",
+      "npm": "https://www.npmjs.com/package/make-graphql-query",
+      "vid": null,
+      "blog": "",
+      "command": "npm install make-graphql-query"
     }
   ]
 }

@@ -11,17 +11,24 @@
         "action": "Have worked on freelance development projects that have involved Flask, Svelte, Gatsby, Contentful and more."
      },
        {
-          "action": "Have created over eight hundred coding videos and dozens of blog posts on dev.to covering over twenty programming languages and dozens of frameworks."
+          "action": "Have created a vast amount of technical content as a developer advocate for Dremio, Blogger for Logrocket, and on my own personal blogs, youtube and podcasts"
        }
     ],
     "skills": {
-       "frontend": "React, Vue, Angular, Svelte, StencilJS, SolidJS, NextJS, Astro, SvelteKit jQuery, Redux, Styled Components, Grommet, React Bootstrap, Buefy, Bulma, Materialize, Bootstrap, Web Components",
+       "frontend": "React, Vue, Angular, Svelte, StencilJS, SolidJS, NextJS, Astro, SvelteKit jQuery, Redux, Styled Components, Grommet, React Bootstrap, Buefy, Bulma, Materialize, Bootstrap, Web Components, RemixJS",
        "backend": "ExpressJS, KoaJS, FoalTS, NestJS, Go/Buffalo, Go/Echo, Ruby/Rails, Ruby/Sinatra, Python/Django, Python/Flask, Python/FastAPI, PHP/Laravel, MongoDB, PostgresQL/SQL, Apollo Server/GraphQL, Neo4J/CQL",
-       "languages": "Javascript, Typescript, Python, Ruby, PHP, Go, Ballerina, Rust, Java, C#, Dart",
-       "devops": "Docker, AWS Lambda, Netlify Functions, Firebase, Firestore, Netlify, Heroku, Vercel, Jest, Cypress, CircleCI, Github Actions",
-       "productivity": "Google Docs, Airtable, Asana, Trello, Microsoft Office, Zoom, Google Hangouts, Slack, Discord"
+       "languages": "Javascript, Typescript, Python, Ruby, PHP, Go, Ballerina, Rust, Java, C#, Dart, Java, Scala, SQL",
+       "devops": "Docker, AWS Lambda, AWS Glue, AWS EMR, AWS IAM, Netlify Functions, Firebase, Firestore, Netlify, Heroku, Vercel, Jest, Cypress, CircleCI, Github Actions",
+       "productivity": "Google Docs, Airtable, Asana, Trello, Microsoft Office, Zoom, Google Hangouts, Slack, Discord",
+       "data": "Apache Spark, Apache Iceberg, Apache Arrow, Dremio, Flink"
     },
     "employment": [
+      {
+         "name": "Dremio",
+         "position": "Developer Advocate",
+         "dates": "December 2021 - Present",
+         "description": "I create technical content and foster community around open source data technology"
+      },
        {
           "name": "General Assembly",
           "position": "Instructional Lead",
@@ -31,7 +38,7 @@
        {
         "name": "CampusGuard",
         "position": "Full Stack Developer",
-        "dates": "September 2020 - Present",
+        "dates": "September 2020 - December 2021",
         "description": "Assist in creating different solutions support staff that has involved leveraging jQuery, AWS Lambda, QuickBase, Knack and other platforms."
      },
        {
