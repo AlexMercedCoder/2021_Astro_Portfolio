@@ -279,6 +279,33 @@
       "vid": null,
       "blog": "",
       "command": "npm install make-graphql-query"
+    },
+    {
+      "name": "merced-express-oop",
+      "description": "A Light OOP layer on Express",
+      "github": "https://github.com/AlexMercedCoder/merced-express-oop",
+      "npm": "https://www.npmjs.com/package/merced-express-oop",
+      "vid": null,
+      "blog": "",
+      "command": "npm install merced-express-oop"
+    },
+    {
+      "name": "@alexmerced/simplerpc-server",
+      "description": "Server Library to SimpleRPC Framework",
+      "github": "https://github.com/AlexMercedCoder/simplerpc-server",
+      "npm": "https://www.npmjs.com/package/@alexmerced/simplerpc-server",
+      "vid": null,
+      "blog": "",
+      "command": "npm install @alexmerced/simplerpc-server"
+    },
+    {
+      "name": "@alexmerced/simplerpc-client",
+      "description": "Client Library to SimpleRPC Framework",
+      "github": "https://github.com/AlexMercedCoder/simplerpc-client",
+      "npm": "https://www.npmjs.com/package/@alexmerced/simplerpc-client",
+      "vid": null,
+      "blog": "",
+      "command": "npm install @alexmerced/simplerpc-client"
     }
   ]
 }
