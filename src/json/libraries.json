@@ -306,6 +306,33 @@
       "vid": null,
       "blog": "",
       "command": "npm install @alexmerced/simplerpc-client"
+    },
+    {
+      "name": "coquito",
+      "description": "Backend Framework Built on Express for Easy GraphQL/RPC",
+      "github": "https://github.com/AlexMercedCoder/coquitojs",
+      "npm": "https://www.npmjs.com/package/coquito",
+      "vid": "https://youtu.be/O4sv9T3i_cM",
+      "blog": "",
+      "command": "npm install coquito"
+    },
+    {
+      "name": "coquito-cli",
+      "description": "CLI took for scaffolding Coquito apps",
+      "github": "https://github.com/AlexMercedCoder/coquitojs-cli",
+      "npm": "https://www.npmjs.com/package/coquito-cli",
+      "vid": null,
+      "blog": "",
+      "command": "npm install -g coquito-cli"
+    },
+    {
+      "name": "SencilloDB",
+      "description": "A JSON File Based Document Database",
+      "github": "https://github.com/AlexMercedCoder/SencilloDB",
+      "npm": "https://www.npmjs.com/package/sencillodb",
+      "vid": null,
+      "blog": "",
+      "command": "npm install sencillodb"
     }
   ]
 }
