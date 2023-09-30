@@ -333,6 +333,15 @@
       "vid": null,
       "blog": "",
       "command": "npm install sencillodb"
+    },
+    {
+      "name": "pattern-match-expression",
+      "description": "Pattern Matching Library for Javascript",
+      "github": "https://github.com/AlexMercedCoder/pattern-match-expression",
+      "npm": "https://www.npmjs.com/package/pattern-match-expression",
+      "vid": null,
+      "blog": "",
+      "command": "npm install pattern-match-expression"
     }
   ]
 }
